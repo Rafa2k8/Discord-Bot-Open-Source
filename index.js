@@ -62,7 +62,7 @@ client.on('message', async message => {
     if(command) command.run(client, message, args) 
 })
 client.on('guildMemberAdd', async (member) => {
-    const Channel =member.guild.channels.cache.get('819873345394573362')
+    const Channel =member.guild.channels.cache.get('Channel ID here')
 
         const embed = new Message.embed()
         .setColor('GREEN')
@@ -71,7 +71,7 @@ client.on('guildMemberAdd', async (member) => {
    
 })
 client.on('guildMemberRemove', async (member) => {
-    const Channel =member.guild.channels.cache.get('819873345394573362')
+    const Channel =member.guild.channels.cache.get('Channel ID here')
     const embed = new Message.embed()
     .setColor('RED')
     .setTitle('A member left the server : (')
